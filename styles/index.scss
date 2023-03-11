@@ -49,6 +49,38 @@ header {
     }
 }
 
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        align-items: flex-end;
+       /* justify-content: space-between;*/
+    
+
+        .logo-name {
+            margin-bottom: 0;
+        
+            .name {
+                margin-bottom: 0;
+            }
+        }
+        
+        .nav.items {
+            width: 50%
+        }
+    }    
+}
+
+main {
+    section {
+        .comp {
+            img {
+                height: 300px;
+                width: 100%;
+            }
+        }
+    }
+}
+
 footer {
     @include background-stuff();
 
@@ -71,6 +103,16 @@ footer {
 
         p {
             margin: 5px 0;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        .social-media {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }

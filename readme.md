@@ -9,12 +9,13 @@ This is a portfolio website for displaying the services that coder academy provi
 
 ### Header
 Header has logo and name of the company along with the navagation bar. Here is the code for the header we have:
-'''html
-<header>
-    <div class="logo-name">
-        <a href="./index.html">
-            <img src="./images/calogo.png" alt="coder academy logo">
-        </a>
+
+```html
+    <header>
+        <div class="logo-name">
+            <a href="./index.html">
+                <img src="./images/calogo.png" alt="coder academy logo">
+            </a>
 
         <p class="name">
             <span class="coder-text">Coder</span>
@@ -28,4 +29,28 @@ Header has logo and name of the company along with the navagation bar. Here is t
         <a href="Pages/contact.html">Contact</a>
     </nav>
     </header>
-'''
+```
+
+
+### Footer
+Footer has social media links, contact number and address. Here is the code that we have:
+
+```html
+<footer>
+    <div class="social-media">
+        <a href="">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+    </div>
+    <div class="info">
+        <p>Contact: 0404040404</p>
+        <p>Address: 1 Street St, Suburb</p>
+    </div>
+</footer>
+```
