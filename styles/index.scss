@@ -1,12 +1,24 @@
+$primary-background: #f09e6f;
+
+@mixin background-stuff() {
+    background-color: $primary-background;
+    padding: 16px;
+    text-align: center;
+}
+
+
 body {
     margin: 0;
-    background-color: #d9e4ab
+    background-color: #d9e4ab;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
-    background-color: #f09e6f;
-    padding: 16px;
-    text-align: center;
+    @include background-stuff();
 
     .logo-name {
         margin-bottom: 24px;
@@ -34,5 +46,31 @@ header {
         color: #45a7c5;
      }
      
+    }
+}
+
+footer {
+    @include background-stuff();
+
+    .social-media {
+        display: flex;
+        justify-content: space-around;
+
+        margin-bottom: 24px;
+
+        a {
+            i {
+                color: #1C3C5C;
+                font-size: 24px;
+            }
+        }
+    }
+
+    .info {
+        color: rgb(41, 40, 40);
+
+        p {
+            margin: 5px 0;
+        }
     }
 }
