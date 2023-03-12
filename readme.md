@@ -54,3 +54,24 @@ Footer has social media links, contact number and address. Here is the code that
     </div>
 </footer>
 ```
+
+## Pages
+
+### Home
+Home page for now just displays some lorem ipsum text.
+Here is the code that we have used:
+```html
+<main> 
+            <section>
+                <div class="comp">
+                    <img src="./images/comp.jpg">
+                </div>
+                <div class="details">
+                    <p>
+                        lorem ipsum text
+                    </p>
+                </div>
+            </section>  
+        </main>
+
+```

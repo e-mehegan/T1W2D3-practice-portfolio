@@ -21,17 +21,20 @@ header {
     @include background-stuff();
 
     .logo-name {
-        margin-bottom: 24px;
-    }
-
-    .name {
-        font-size: 28px;
-
-        .coder-text {
-            color-text: #45a7c5;
+        @media screen and (max-width: 600px) {
+            margin-bottom: 24px;
         }
-        .academy-text {
-            color: #1C3C5C;
+
+        .name {
+            font-size: 28px;
+
+            .coder-text {
+                color: #45A7C5;
+            }
+
+            .academy-text {
+                color: #1C3C5C;
+            }
         }
     }
 
@@ -42,10 +45,9 @@ header {
         font-size: 18px;
 
         a {
-        text-decoration: none;
-        color: #45a7c5;
-     }
-     
+            text-decoration: none;
+            color: #00a3d4;
+        }
     }
 }
 
@@ -53,21 +55,20 @@ header {
     header {
         display: flex;
         align-items: flex-end;
-       /* justify-content: space-between;*/
-    
+        justify-content: space-between;
 
         .logo-name {
-            margin-bottom: 0;
-        
+            // margin-bottom: 0; this will be taken care in mobile view
+
             .name {
                 margin-bottom: 0;
             }
         }
-        
-        .nav.items {
-            width: 50%
+
+        .nav-items {
+            width: 50%;
         }
-    }    
+    }
 }
 
 main {
