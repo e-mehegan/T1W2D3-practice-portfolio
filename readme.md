@@ -75,3 +75,17 @@ Here is the code that we have used:
         </main>
 
 ```
+
+## Styling
+
+
+### Components
+These will contain the styling for the indiviudal components which are the following at the moment:
+- Header
+- Footer
+
+### Defaults
+This will contain the default variables such as colors, breakpoints, etc.
+
+### Pages
+This will contain the styling of each individual HTML pages.
