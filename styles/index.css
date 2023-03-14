@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #d9e4ab;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #f09e6f;
+  padding: 16px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  header .logo-name {
+    margin-bottom: 24px;
+  }
+}
+header .logo-name .name {
+  font-size: 28px;
+}
+header .logo-name .name .coder-text {
+  color: #45A7C5;
+}
+header .logo-name .name .academy-text {
+  color: #1C3C5C;
+}
+header .nav-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+header .nav-items a {
+  text-decoration: none;
+  color: #00a3d4;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header .nav-items {
+    width: 50%;
+  }
+}
+main section .comp img {
+  height: 300px;
+  width: 100%;
+}
+
+footer {
+  background-color: #f09e6f;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+footer .social-media a i {
+  color: #1C3C5C;
+  font-size: 24px;
+}
+footer .info {
+  color: rgb(41, 40, 40);
+}
+footer .info p {
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=index.css.map */
